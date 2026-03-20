@@ -14,8 +14,8 @@ int main(){
     for(int i =0 ; i<5 ; i++){
         cout<<"the value of array  in index " <<i<< " is "<<B[i]<<endl;
     }
-    cout<<sizeof(A)<<endl;
-    cout<<A[2]<<endl;
+    cout<<"size of array A : "<<sizeof(A)<<endl;
+    cout<<"value of array A at index 2: "<<A[2]<<endl;
 
     //TAKING INPUT FROM USER
     int n;
@@ -31,5 +31,6 @@ int main(){
     for(int i =0 ; i<n ; i++){
         cout<<"the value of array  in index " <<i<< " is "<<C[i]<<endl;
     }
+
     return 0;
 }
