@@ -1,0 +1,7 @@
+*.exe
+*.out
+*.o
+.vscode/settings.json
+*.obj
+/build/
+/bin/

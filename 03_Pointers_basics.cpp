@@ -3,6 +3,11 @@
 #include<stdlib.h>
 using namespace std;
 
+struct Rectangle{
+    int length;
+    int breadth;
+};
+
 int main(){
     int a=10;
     int *p;
@@ -32,5 +37,16 @@ int main(){
     }
     free(r);
     delete [ ] s;
+
+    //POINTER TO A STRUCTURE
+    struct Rectangle r1 ={10,5};
+    Rectangle r2 = {11,15};            // In C++ struct is not mandatory (in c is required)
+    struct Rectangle *t; 
+    t = &r1;
+    cout<<t->length<<endl;
+    cout<<t->breadth<<endl;
+    t->length=40;
+    t->breadth = 50;
+    cout<<"Area " <<t->breadth*t->length;
     return 0;
 }
