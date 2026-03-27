@@ -6,7 +6,11 @@ class Rectangle{
         int length;
         int breadth;
     public:
-        // CONSTRUCTOR
+        //DEFAULT CONSTRUCTOR
+        Rectangle(){
+            length=breadth=1;
+        }
+        // PARAMETERIZED CONSTRUCTOR
         Rectangle(int l,int b){
             length = l;
             breadth = b;
