@@ -15,9 +15,12 @@ int fun2(int n){
     }
 }
 
+
+
 int main(){
     int a = 5;
     cout<<"Normal :"<<fun1(a)<<endl;
     cout<<"Static Variable :"<<fun2(a)<<endl;
+
     return 0;
 }

@@ -14,9 +14,19 @@ void headfun(int n){
         cout<<n<<endl;
     }
 }
+
+void fun3(int n){
+    if(n>0){
+        cout<<n<<endl;
+        fun3(n-1);
+        fun3(n-1);
+    }
+}
+
 int main(){
     int x = 3;
     tailfun(x);
     headfun(x);
+    fun3(x);
     return 0;
 }
