@@ -33,6 +33,8 @@ int pow1(int m,int n){
         return m*pow(m*m,(n-1)/2);
 }
 
+
+
 int main(){
     int n ;
     cin>>n;
